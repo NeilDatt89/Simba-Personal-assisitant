@@ -352,7 +352,7 @@ input[type = "checkbox"]{
     position: absolute;
 }
 
-@media screen and (max-width: 3600px) {
+@media screen and (max-width: 360px) {
     .headA{
         visibility: hidden;
     }
