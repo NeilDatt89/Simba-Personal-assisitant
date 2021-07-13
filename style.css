@@ -239,7 +239,16 @@ input[type = "checkbox"]{
         height: 104%;
     }
     .more-optionsBttn{
-        margin-top: 200px;
+        margin-top: -500px;
+    }
+}
+
+@media screen and (max-height: 880px){
+    .more-options{
+        margin-top: -30px;
+    }
+    .micSvg{
+        margin-top: -90px;
     }
 }
 
@@ -439,5 +448,13 @@ input[type = "checkbox"]{
         font-weight: 600;
         margin-top: 30vh;
     }
+    .more-options{
+        visibility: hidden;
+    }
+    .more-optionsBttn{
+        visibility: hidden;
+    }
 
 }
+
+/* CSS CODE FINISHED WITHOUT BUG CHECK */
