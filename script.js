@@ -21,3 +21,5 @@ function toggleMode(){
     var mBttn = document.getElementById("more-options");
     mBttn.classList.toggle("more-optionsA");
 }
+
+//JS CODE FINISHED WITHOUT BUG CHECK
