@@ -346,7 +346,7 @@ input[type = "checkbox"]{
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
     .loader{
         visibility: hidden;
     }
@@ -356,16 +356,55 @@ input[type = "checkbox"]{
     }
 }
 
+@media screen and (max-width: 370px){
+    .headA{
+        margin-left: 30px;
+        font-size: 50px;
+    }
+    .sub-headA{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .micSvg{
+        margin-left: 40px;
+    }
+    .micSvg{
+        margin-top: 52px;
+    }
+    .more-options{
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .headA{
+        margin-left: 60px;
+    }
+    .sub-headA{
+        margin-left: 60px;
+        visibility: hidden;
+    }
+    .micSvg{
+        margin-left:110px;
+        margin-top: 52px;
+    }
+    .more-options{
+        margin-top: -20px;
+    }
+}
+
 .sorry{
     visibility: hidden;
     position: absolute;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 290px) {
     .headA{
         visibility: hidden;
     }
-    
+    .sorry{
+        margin-left: 66px;
+    }
     .sub-headA{
         visibility: hidden;
     }
@@ -456,5 +495,3 @@ input[type = "checkbox"]{
     }
 
 }
-
-/* CSS CODE FINISHED WITHOUT BUG CHECK */
